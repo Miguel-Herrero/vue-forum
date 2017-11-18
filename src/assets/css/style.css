@@ -237,8 +237,8 @@ figcaption {
 }
 
 .reactions button:hover {
-    background: rgba(115, 192, 151, 0.25) !important;
-    color: #545454 !important;
+    background: rgba(115, 192, 151, 0.25);
+    color: #545454;
 }
 
 .reactions button.active-reaction {
@@ -246,7 +246,7 @@ figcaption {
 }
 
 .reactions button.active-reaction:hover {
-    background: white !important;
+    background: white;
 }
 
 .reactions button .emoji {
@@ -264,7 +264,7 @@ figcaption {
     display: flex;
     justify-content: flex-end;
     top: -45px;
-    background-color: white !important;
+    background-color: white;
 }
 
 .reactions ul li {
@@ -508,7 +508,6 @@ figcaption {
 }
 
 .post-content blockquote.small {
-/ / display: flex;
     position: relative;
     flex-direction: column;
     border: 2px solid rgba(152, 152, 152, 0.15);
@@ -2064,7 +2063,7 @@ ul.breadcrumbs li a:hover {
         flex-basis: 100%;
         margin: 0;
         text-align: center;
-        border-right: none !important;
+        border-right: none;
     }
 
     #moderation ul.toolbar li a {
@@ -2245,10 +2244,7 @@ body a:hover {
 
 h1, h2, h3, h4, h5 {
     font-weight: 700;
-    margin-bottom: 10px;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 0 10px 0;
 }
 
 ul {
@@ -2517,7 +2513,7 @@ section {
 }
 
 .no-margin {
-    margin: 0 !important;
+    margin: 0;
 }
 
 .link-white {
